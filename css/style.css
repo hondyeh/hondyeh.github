@@ -1,0 +1,410 @@
+.logo {
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+nav {
+    background-color: #344051;
+    width: 100%;
+    height: 60px;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    color: white;
+    float: left;
+    line-height: 40px;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.main {
+    width: 100%;
+    background: url(../img/boy.png)90% 100%/auto 85% no-repeat, url(../img/bg.png) center/cover no-repeat;
+    height: calc(100% - 60px);
+}
+
+.title_container {
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title_container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_container h4 {
+    margin-top: 40px;
+    font-size: 22;
+    color: #949aa4;
+}
+
+.title_container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 28px 0px 14px;
+}
+
+.aboutme {
+    height: 700px;
+}
+
+.aboutme h2 {
+    width: 100px;
+    text-align: center;
+    color: #263244;
+    border-bottom: 3px solid #d17700;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.abtcontainer {
+    text-align: center;
+    width: 740px;
+    margin: 0 auto;
+}
+
+.aboutme hr {
+    background-color: #d17700;
+    border: none;
+    height: 4px;
+    width: 100px;
+}
+
+.aboutme img {
+    display: block;
+    margin: 0 auto;
+}
+
+.aboutme p {
+    color: #3f495a;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.aboutme button {
+    color: #6f707e;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: none;
+    font-size: 17px;
+    height: 40px;
+    width: 180px;
+    background-image: url(../img/ikonka.png) no-repeat;
+    border: 2px solid #6d7682;
+}
+
+.tretiublock {
+    background-image: url(../img/tretiublockfon.png);
+}
+
+.skills_item {
+    float: left;
+    width: 230px;
+    text-align: center;
+}
+
+.containertri h2 {
+    width: 130px;
+    text-align: center;
+    color: #263244;
+    border-bottom: 3px solid #d17700;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.containertri h3 {
+    color: orange;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.containertri {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: left;
+}
+
+.casecontainer h2 {
+    width: 130px;
+    text-align: center;
+    color: #263244;
+    border-bottom: 3px solid #d17700;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.casecontainer {
+    text-align: center;
+    height: 1000px;
+}
+
+.client {
+    float: left;
+    width: 230px;
+    text-align: center;
+}
+
+.client p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.client button {
+    width: 150px;
+    color: white;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 10px
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #384354;
+}
+
+.client h3 {
+    font-size: 20px;
+}
+
+.lorem {
+    text-align: center;
+    color: #646b77;
+    padding: 20px;
+}
+
+#list {
+    width: 890px;
+    height: 54px;
+    color: #737373;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+
+.raschetcontainer h2 {
+    width: 300px;
+    text-align: center;
+    color: #263244;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 100px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+hr {
+    color: grey;
+    width: 100%;
+}
+
+.raschetcontainer h3 {
+    padding-bottom: 20px;
+    font-size: 16px;
+    padding-top: 20px;
+    color: #263244;
+}
+
+.raschet form {
+    padding-left: 550px;
+}
+
+.select:before {
+    content: ">";
+    display: inline-block;
+    background: black;
+    position: absolute;
+    right: -5px;
+    top: 2px;
+    z-index: 2;
+    width: 30px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    border: 2px solid black;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.statistikacontainer {
+    background-image: url(../img/klava.png);
+}
+
+.statistikacontainer h3 {
+    width: 100px;
+    text-align: center;
+    color: #263244;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.statistikacontainer {
+    width: 920px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.statistikacontainer h2 {
+    width: 150px;
+    text-align: center;
+    color: #263244;
+    border-bottom: 3px solid #d17700;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.stata {
+    float: left;
+    width: 230px;
+    text-align: center;
+}
+
+.otzivicontainer h2 {
+    width: 150px;
+    text-align: center;
+    color: #263244;
+    border-bottom: 3px solid #d17700;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.otzivicontainer img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.otzivicontainer {
+    width: 920px;
+    margin: 0 auto;
+    height: 500px;
+    text-align: center;
+}
+
+.otzivicontainer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.kontakticontainer {
+    background-image: url(../img/ryka.png);
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+    text-align: center;
+}
+
+.kontakticontainer h2 {
+    width: 150px;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #d17700;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.kontakti {
+    float: left;
+    width: 230px;
+    text-align: center;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+.kontakti h3 {
+    color: white;
+}
+
+.kontakticontainer p {
+    color: white;
+}
+
+.forma {
+    width: 500px;
+    margin-left: 800px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.forma h3 {
+    color: white;
+    width: 400px;
+    font-size: 23px;
+}
+
+.coobsh {
+    padding-top: 20px;
+    width: 100px
+}
+
+.coobsh textarea {
+    width: 500px;
+    height: 80px;
+    background-color: #d2d5dc;
+    font-size: 15px;
+    border: 1px #d2d5dc;
+}
+
+.coobsh button {
+    color: white;
+    border: 2px solid white;
+    width: 200px;
+    height: 40px;
+    background: none;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #344051;
+    width: 100%;
+    height: 60px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 22px;
+}
+
+.forma input {
+    background-color: #d2d5dc;
+    width: 200px;
+    height: 24px;
+    padding: 10px;
+}
