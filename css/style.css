@@ -150,7 +150,12 @@ body {
 }
 
 .clear {
-    clear: left;
+    clear: both;
+}
+
+.case {
+    padding-top: 100px;
+    padding-bottom: 128px;
 }
 
 .casecontainer h2 {
@@ -164,33 +169,41 @@ body {
 }
 
 .casecontainer {
-    text-align: center;
-    height: 1000px;
+    width: 1150px;
+    margin: 0 auto;
 }
 
 .client {
+    width: 200px;
     float: left;
-    width: 230px;
-    text-align: center;
+    margin-right: 80px;
 }
 
 .client p {
-    padding-bottom: 10px;
-    padding-top: 10px;
+    font-size: 16px;
+    margin: 16px 0px;
 }
 
 .client button {
-    width: 150px;
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    background: aqua;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
     color: white;
-    background-color: aqua;
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 10px 10px
+    font-size: 20px;
+    border-radius: 8px;
 }
 
-.project h3 {
+.project h4 {
     font-size: 20px;
-    color: #384354;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 20px;
 }
 
 .client h3 {
@@ -220,6 +233,21 @@ body {
     padding-top: 100px;
     font-size: 30px;
     padding-bottom: 30px;
+}
+
+.da .text {
+    float: left;
+}
+
+.da .nol {
+    font-size: 29px;
+    float: right;
+}
+
+.sroki,
+.stoimost {
+    margin-bottom: 18px;
+    font-size: 21px;
 }
 
 hr {
@@ -325,6 +353,7 @@ hr {
     margin: 0 auto;
     height: 800px;
     text-align: center;
+    padding-bottom: 70px;
 }
 
 .kontakticontainer h2 {
