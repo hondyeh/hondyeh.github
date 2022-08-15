@@ -224,6 +224,12 @@ body {
     background-color: #eeeeee;
 }
 
+.raschetcontainer {
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
 .raschetcontainer h2 {
     width: 300px;
     text-align: center;
@@ -263,7 +269,7 @@ hr {
 }
 
 .raschet form {
-    padding-left: 550px;
+    padding-left: 100px;
 }
 
 .select:before {
