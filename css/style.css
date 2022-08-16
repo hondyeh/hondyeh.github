@@ -353,75 +353,93 @@ hr {
     padding-bottom: 20px;
 }
 
+.kontakti {
+    background: url(../img/ryka.png) center/cover no-repeat;
+    color: white;
+}
+
 .kontakticontainer {
-    background-image: url(../img/ryka.png);
-    width: 100%;
+    width: 734px;
     margin: 0 auto;
-    height: 800px;
-    text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 68px;
 }
 
 .kontakticontainer h2 {
-    width: 150px;
     text-align: center;
-    color: white;
-    border-bottom: 3px solid #d17700;
-    font-size: 25px;
-    margin: 0 auto;
-    padding-top: 80px;
-}
-
-.kontakti {
-    float: left;
-    width: 230px;
-    text-align: center;
-    margin-left: 300px;
-    padding-top: 30px;
-}
-
-.kontakti h3 {
-    color: white;
-}
-
-.kontakticontainer p {
-    color: white;
-}
-
-.forma {
-    width: 500px;
-    margin-left: 800px;
-    text-align: center;
+    width: 390px;
+    font-size: 33px;
+    margin: 0px auto 30px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
     padding-top: 100px;
+    border-bottom: 3px solid #d17700;
 }
 
-.forma h3 {
-    color: white;
-    width: 400px;
-    font-size: 23px;
+.loremodin {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 48px;
 }
 
-.coobsh {
-    padding-top: 20px;
-    width: 100px
+.kontaktigeo {
+    float: left;
+    width: 154px;
+    text-align: center;
+    margin: 0 45px;
 }
 
-.coobsh textarea {
-    width: 500px;
-    height: 80px;
-    background-color: #d2d5dc;
+.kontaktigeo img {
+    height: 24px;
+    margin-bottom: 16px;
+}
+
+.kontaktigeo p {
     font-size: 15px;
-    border: 1px #d2d5dc;
 }
 
-.coobsh button {
+.kontakticontainer h3 {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 46px;
+    font-size: 21px;
+}
+
+.kontaktiknopki input {
+    display: block;
+    width: 352px;
+    float: left;
+    height: 34px;
+    padding-left: 14px;
+    margin-bottom: 14px;
+    background: #d2d6dc;
+    font-size: 16px;
+}
+
+.kontaktiknopki .secondInput {
+    float: right;
+}
+
+.kontakticontainer textarea {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 15px;
+    background: #d2d6dc;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.kontakticontainer button {
+    display: block;
+    margin: 0 auto;
+    background: none;
     color: white;
     border: 2px solid white;
-    width: 200px;
-    height: 40px;
-    background: none;
+    height: 46px;
+    width: 124px;
+    border-radius: 8px;
     font-size: 20px;
-    border-radius: 4px;
+    margin-bottom: 76px;
 }
 
 footer {
@@ -435,11 +453,4 @@ footer p {
     text-align: center;
     font-size: 15px;
     padding-top: 22px;
-}
-
-.forma input {
-    background-color: #d2d5dc;
-    width: 200px;
-    height: 24px;
-    padding: 10px;
 }
