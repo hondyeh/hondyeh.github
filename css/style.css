@@ -340,7 +340,8 @@ hr {
 }
 
 .statistika {
-    background-image: url(../img/klava.png);
+    background: url(../img/klava.png)center/cover no-repeat;
+    background-attachment: fixed;
 }
 
 .statistikacontainer h3 {
