@@ -14,10 +14,11 @@
 }
 
 .skills_item {
-    -webkit-animation: skill 1.5s ease forwards;
-    -o-animation: skill 1.5s ease forwards;
-    animation: skill 1.5s ease forwards;
+    -webkit-animation: skill 1.2s ease forwards;
+    -o-animation: skill 1.2s ease forwards;
+    animation: skill 1.2s ease forwards;
     transition: all 1s;
+    position: relative;
 }
 
 .skills_item:hover {
@@ -30,7 +31,7 @@
 @keyframes skill {
     from {
         opacity: 0;
-        margin-left: -500px;
+        margin-left: -700px;
     }
     to {
         opacity: 1;
