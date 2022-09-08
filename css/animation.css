@@ -6,7 +6,7 @@
 }
 
 .abtcontainer button:active {
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .abtcontainer button {
@@ -25,13 +25,13 @@
     transform: scale(1.3);
     transition: all 0.7s;
     padding: 20px;
-    font-size: 15px;
+    font-size: 13px;
+    width: 300px;
 }
 
 @keyframes skill {
     from {
         opacity: 0;
-        margin-left: -700px;
     }
     to {
         opacity: 1;

@@ -117,45 +117,39 @@
             transform: scale(1.1);
         }
         
-        .aboutme {
-            height: 700px;
-        }
-        
-        .aboutme h2 {
-            width: 100px;
-            text-align: center;
+        .abtcontainer h2 {
             color: #263244;
-            border-bottom: 3px solid #d17700;
-            font-size: 20px;
-            margin: 0 auto;
-            padding-top: 100px;
+            font-size: 33px;
+            margin: 110px 0 30px;
+            font-weight: 5px;
         }
         
         .abtcontainer {
             text-align: center;
-            width: 740px;
             margin: 0 auto;
+            max-width: 1000px;
         }
         
-        .aboutme hr {
-            background-color: #d17700;
+        .abtcontainer hr {
+            background: #d17700;
             border: none;
             height: 4px;
-            width: 100px;
+            width: 80px;
+            margin: 0 auto 60px;
+            opacity: 1;
         }
         
-        .aboutme img {
-            display: block;
-            margin: 0 auto;
-        }
-        
-        .aboutme p {
+        .abtcontainer p {
             color: #3f495a;
             text-align: center;
-            margin: 10px 20px;
+            font-size: 17px;
         }
         
-        .aboutme button {
+        .abtcontainer img {
+            display: block;
+        }
+        
+        .abtcontainer button {
             color: #6f707e;
             display: block;
             margin: 0 auto;
@@ -164,42 +158,38 @@
             font-size: 17px;
             height: 40px;
             width: 180px;
-            background-image: url(../img/ikonka.png) no-repeat;
             border: 2px solid #6d7682;
         }
         
         .tretiublock {
-            background-image: url(../img/tretiublockfon.png);
-            display: flex;
-            justify-content: center;
+            background: url(../img/tretiublockfon.png) center/cover no-repeat;
         }
         
-        .skills_item {
-            float: left;
-            width: 230px;
-            text-align: center;
+        .containertri hr {
+            background: #d17700;
+            border: none;
+            height: 4px;
+            width: 80px;
+            margin: 0 auto 60px;
+            opacity: 1;
         }
         
         .containertri h2 {
             color: #263244;
-            border-bottom: 3px solid #d17700;
             font-size: 20px;
             text-align: center;
+            padding-top: 30px;
+        }
+        
+        .skills_item img {
+            margin-bottom: 40px;
+            height: 40px;
+            max-width: 100%;
         }
         
         .containertri h3 {
             color: orange;
             justify-content: center;
-        }
-        
-        .containertri {
-            width: 920px;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        
-        .clear {
-            clear: both;
         }
         
         .case {
@@ -211,21 +201,29 @@
             width: 130px;
             text-align: center;
             color: #263244;
-            border-bottom: 3px solid #d17700;
             font-size: 20px;
             margin: 0 auto;
             padding-top: 100px;
         }
         
-        .casecontainer {
-            width: 1150px;
-            margin: 0 auto;
+        .casecontainer img {
+            width: 100%;
+            margin-bottom: 40px;
         }
         
         .client {
             width: 200px;
             float: left;
             margin-right: 80px;
+        }
+        
+        .casecontainer hr {
+            background: #d17700;
+            border: none;
+            height: 4px;
+            width: 80px;
+            margin: 0 auto 60px;
+            opacity: 1;
         }
         
         .client p {
@@ -265,22 +263,12 @@
             padding: 20px;
         }
         
-        #list {
-            width: 890px;
-            height: 54px;
-            color: #737373;
-            box-sizing: border-box;
-            background-color: #eeeeee;
-        }
-        
         .raschetcontainer {
-            width: 1080px;
-            margin: 0 auto;
+            max-width: 1080px;
             padding-top: 70px;
         }
         
         .raschetcontainer h2 {
-            width: 300px;
             text-align: center;
             color: #263244;
             font-size: 20px;
@@ -288,6 +276,19 @@
             padding-top: 100px;
             font-size: 30px;
             padding-bottom: 30px;
+        }
+        
+        .da p {
+            margin-bottom: 0;
+        }
+        
+        .da .text {
+            float: left;
+        }
+        
+        .da .nol {
+            margin-bottom: 0px;
+            font-size: 21px;
         }
         
         .da .text {
@@ -301,13 +302,12 @@
         
         .sroki,
         .stoimost {
-            margin-bottom: 18px;
+            margin-bottom: 0px;
             font-size: 21px;
         }
         
-        hr {
-            color: grey;
-            width: 100%;
+        .clear {
+            clear: both;
         }
         
         .raschetcontainer h3 {
@@ -317,8 +317,10 @@
             color: #263244;
         }
         
-        .raschet form {
-            padding-left: 100px;
+        .raschetcontainer_inn {
+            max-width: 890px;
+            margin: 0 auto;
+            padding-bottom: 50px;
         }
         
         .select:before {
@@ -338,6 +340,16 @@
             cursor: pointer;
         }
         
+        .mySelect {
+            display: block;
+            width: 100%;
+            max-width: 890px;
+            height: 54px;
+            background: #eeeeee;
+            padding-left: 24px;
+            font-size: 16px;
+        }
+        
         .statistika {
             background: url(../img/klava.png)center/cover no-repeat;
             background-attachment: fixed;
@@ -353,19 +365,25 @@
         }
         
         .statistikacontainer {
-            width: 920px;
-            margin: 0 auto;
-            height: 500px;
+            max-width: 100%;
         }
         
         .statistikacontainer h2 {
             width: 150px;
             text-align: center;
             color: #263244;
-            border-bottom: 3px solid #d17700;
             font-size: 25px;
             margin: 0 auto;
             padding-top: 80px;
+        }
+        
+        .statistikacontainer hr {
+            background: #d17700;
+            border: none;
+            height: 4px;
+            width: 200px;
+            margin: 0 auto 60px;
+            opacity: 1;
         }
         
         .stata {
@@ -374,28 +392,38 @@
             text-align: center;
         }
         
+        .otzivicontainer hr {
+            background: #d17700;
+            border: none;
+            height: 4px;
+            width: 200px;
+            margin: 0 auto 60px;
+            opacity: 1;
+        }
+        
         .otzivicontainer h2 {
-            width: 150px;
             text-align: center;
-            color: #263244;
-            border-bottom: 3px solid #d17700;
-            font-size: 25px;
-            margin: 0 auto;
-            padding-top: 80px;
+            max-width: 390px;
+            font-size: 28px;
+            margin: 0px auto 30px;
+            padding-bottom: 5px;
+            padding-top: 100px;
+        }
+        
+        .otziv {
+            text-align: center;
+        }
+        
+        .otziv img {
+            margin-bottom: 36px;
         }
         
         .otzivicontainer img {
-            display: block;
             margin: 0 auto;
-            padding-bottom: 30px;
-            padding-top: 50px;
         }
         
         .otzivicontainer {
-            width: 920px;
-            margin: 0 auto;
-            height: 500px;
-            text-align: center;
+            padding-bottom: 140px;
         }
         
         .otzivicontainer p {
@@ -410,19 +438,22 @@
         
         .kontakticontainer {
             width: 734px;
-            margin: 0 auto;
-            padding-bottom: 68px;
+            max-width: 100%;
+        }
+        
+        .kontakticontainer hr {
+            background: #d17700;
+            border: none;
+            height: 4px;
+            width: 270px;
+            margin: 0 auto 60px;
+            opacity: 1;
         }
         
         .kontakticontainer h2 {
             text-align: center;
-            width: 390px;
             font-size: 33px;
-            margin: 0px auto 30px;
-            padding-bottom: 5px;
             text-transform: uppercase;
-            padding-top: 100px;
-            border-bottom: 3px solid #d17700;
         }
         
         .loremodin {
@@ -435,12 +466,10 @@
             float: left;
             width: 154px;
             text-align: center;
-            margin: 0 45px;
         }
         
         .kontaktigeo img {
             height: 24px;
-            margin-bottom: 16px;
         }
         
         .kontaktigeo p {
@@ -448,35 +477,29 @@
         }
         
         .kontakticontainer h3 {
-            margin-top: 40px;
             text-align: center;
-            margin-bottom: 46px;
             font-size: 21px;
         }
         
         .kontaktiknopki input {
             display: block;
             width: 352px;
-            float: left;
             height: 34px;
             padding-left: 14px;
             margin-bottom: 14px;
             background: #d2d6dc;
             font-size: 16px;
-        }
-        
-        .kontaktiknopki .secondInput {
-            float: right;
+            margin: 3px;
         }
         
         .kontakticontainer textarea {
-            display: block;
+            /* display: block; */
             width: 100%;
-            padding-top: 10px;
-            padding-left: 15px;
+            /* padding-top: 10px; */
+            /* padding-left: 15px; */
             background: #d2d6dc;
             font-size: 16px;
-            margin-bottom: 30px;
+            /* margin-bottom: 30px; */
         }
         
         .kontakticontainer button {
