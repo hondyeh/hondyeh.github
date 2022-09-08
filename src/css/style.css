@@ -60,8 +60,7 @@
         }
         
         body {
-            font-family: Arial, sans-serif;
-            margin: 0px;
+            font-family: "FranklinGot", sans-serif, Arial;
         }
         
         .main {
@@ -184,7 +183,10 @@
         .skills_item img {
             margin-bottom: 40px;
             height: 40px;
-            max-width: 100%;
+        }
+        
+        .skills_item {
+            width: 300px;
         }
         
         .containertri h3 {
@@ -515,15 +517,9 @@
             margin-bottom: 76px;
         }
         
-        .kartinkisocial {
-            width: 420px;
-            margin: 0 auto;
-        }
-        
         .kartinkisocial a {
-            display: block;
-            float: left;
-            margin: 0 20px;
+            display: inline-block;
+            margin: 0 auto;
         }
         
         .kartinkisocial img {
