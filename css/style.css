@@ -29,7 +29,7 @@
             color: white;
             float: left;
             line-height: 40px;
-            margin-right: 40px;
+            margin-left: 40px;
             font-size: 14px;
             text-transform: uppercase;
             -webkit-animation: topshift 0.4s ease forwards;
@@ -53,6 +53,7 @@
             transform: scale(1);
             display: inline-block;
             text-decoration: none;
+            padding-top: 10px;
         }
         
         .menu li a:active {
@@ -60,8 +61,7 @@
         }
         
         body {
-            font-family: Arial, sans-serif;
-            margin: 0px;
+            font-family: "FranklinGot", sans-serif, Arial;
         }
         
         .main {
@@ -151,8 +151,6 @@
         
         .abtcontainer button {
             color: #6f707e;
-            display: block;
-            margin: 0 auto;
             border-radius: 8px;
             background: none;
             font-size: 17px;
@@ -176,7 +174,7 @@
         
         .containertri h2 {
             color: #263244;
-            font-size: 20px;
+            font-size: 30px;
             text-align: center;
             padding-top: 30px;
         }
@@ -184,7 +182,10 @@
         .skills_item img {
             margin-bottom: 40px;
             height: 40px;
-            max-width: 100%;
+        }
+        
+        .skills_item {
+            width: 300px;
         }
         
         .containertri h3 {
@@ -192,18 +193,12 @@
             justify-content: center;
         }
         
-        .case {
-            padding-top: 100px;
-            padding-bottom: 128px;
-        }
-        
         .casecontainer h2 {
             width: 130px;
             text-align: center;
             color: #263244;
-            font-size: 20px;
+            font-size: 30px;
             margin: 0 auto;
-            padding-top: 100px;
         }
         
         .casecontainer img {
@@ -249,6 +244,25 @@
             margin-bottom: 10px;
         }
         
+        .description_right h4 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .description_right h4 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .description_left p {
+            font-size: 17px;
+            margin: 16px 0;
+        }
+        
+        .description_right p {
+            font-size: 20px;
+        }
+        
         .project p {
             font-size: 20px;
         }
@@ -260,7 +274,8 @@
         .lorem {
             text-align: center;
             color: #646b77;
-            padding: 20px;
+            font-size: 16px;
+            margin-bottom: 40px;
         }
         
         .raschetcontainer {
@@ -312,7 +327,6 @@
         
         .raschetcontainer h3 {
             padding-bottom: 20px;
-            font-size: 16px;
             padding-top: 20px;
             color: #263244;
         }
@@ -369,7 +383,7 @@
         }
         
         .statistikacontainer h2 {
-            width: 150px;
+            width: 300px;
             text-align: center;
             color: #263244;
             font-size: 25px;
@@ -381,7 +395,7 @@
             background: #d17700;
             border: none;
             height: 4px;
-            width: 200px;
+            width: 93px;
             margin: 0 auto 60px;
             opacity: 1;
         }
@@ -396,7 +410,7 @@
             background: #d17700;
             border: none;
             height: 4px;
-            width: 200px;
+            width: 75px;
             margin: 0 auto 60px;
             opacity: 1;
         }
@@ -405,8 +419,7 @@
             text-align: center;
             max-width: 390px;
             font-size: 28px;
-            margin: 0px auto 30px;
-            padding-bottom: 5px;
+            margin: 0px auto;
             padding-top: 100px;
         }
         
@@ -445,14 +458,14 @@
             background: #d17700;
             border: none;
             height: 4px;
-            width: 270px;
+            width: 71px;
             margin: 0 auto 60px;
             opacity: 1;
         }
         
         .kontakticontainer h2 {
             text-align: center;
-            font-size: 33px;
+            font-size: 30px;
             text-transform: uppercase;
         }
         
@@ -474,6 +487,9 @@
         
         .kontaktigeo p {
             font-size: 15px;
+            width: 145px;
+            text-align: center;
+            padding: 10px;
         }
         
         .kontakticontainer h3 {
@@ -482,24 +498,23 @@
         }
         
         .kontaktiknopki input {
-            display: block;
             width: 352px;
             height: 34px;
             padding-left: 14px;
-            margin-bottom: 14px;
             background: #d2d6dc;
             font-size: 16px;
-            margin: 3px;
+            margin: 7px;
         }
         
         .kontakticontainer textarea {
-            /* display: block; */
+            display: block;
             width: 100%;
-            /* padding-top: 10px; */
-            /* padding-left: 15px; */
-            background: #d2d6dc;
+            resize: none;
+            padding-top: 10px;
+            padding-left: 15px;
+            background: rgba(220, 224, 230, 0.93);
             font-size: 16px;
-            /* margin-bottom: 30px; */
+            margin-bottom: 30px;
         }
         
         .kontakticontainer button {
@@ -515,15 +530,9 @@
             margin-bottom: 76px;
         }
         
-        .kartinkisocial {
-            width: 420px;
-            margin: 0 auto;
-        }
-        
         .kartinkisocial a {
-            display: block;
-            float: left;
-            margin: 0 20px;
+            display: inline-block;
+            margin: 0 auto;
         }
         
         .kartinkisocial img {
