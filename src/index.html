@@ -7,13 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/preloader.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animation.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.css">
+
+    
     <title>Сайт</title>
 </head>
 
 <body>
+    <div id="modal-content">
+        <h1>Напиши свою почту, чтобы получить скидку 50% на первый заказ!</2>
+        <form action="#">
+            <input placeholder="E-mail" type="email">
+        </form>
+        
+        <a id="modal-close" href="#close">Отправить</a>
+    </div>
+
+
+
+    <!-- <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+        </div>
+    </div>     -->
+    
+
     <header>
         <nav>
             <div class="container">
@@ -24,12 +60,12 @@
                     <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-lg-1 offset-xxl-4 offset-xl-2 d-none d-lg-block">
                         <div class="menu">
                             <ul>
-                                <li><a href="#"> Обо мне</a></li>
-                                <li><a href="#">Услуги</a></li>
-                                <li><a href="#">Кейсы</a></li>
-                                <li><a href="#">Прайс</a></li>
-                                <li><a href="#">Отзывы</a></li>
-                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#abtme"> Обо мне</a></li>
+                                <li><a href="#Yslugi">Услуги</a></li>
+                                <li><a href="#case">Кейсы</a></li>
+                                <li><a href="#price">Прайс</a></li>
+                                <li><a href="#otziv">Отзывы</a></li>
+                                <li><a href="#contacts">Контакты</a></li>
                             </ul>
                         </div>
                     </div>
@@ -40,12 +76,12 @@
                             </a>
 
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#"> Обо мне</a></li>
-                                <li><a class="dropdown-item" href="#">Услуги</a></li>
-                                <li><a class="dropdown-item" href="#">Кейсы</a></li>
-                                <li><a class="dropdown-item" href="#">Прайс</a></li>
-                                <li><a class="dropdown-item" href="#">Отзывы</a></li>
-                                <li><a class="dropdown-item" href="#">Контакты</a></li>
+                                <li><a class="dropdown-item" href="#abtme"> Обо мне</a></li>
+                                <li><a class="dropdown-item" href="#Yslugi">Услуги</a></li>
+                                <li><a class="dropdown-item" href="#case">Кейсы</a></li>
+                                <li><a class="dropdown-item" href="#price">Прайс</a></li>
+                                <li><a class="dropdown-item" href="#otziv">Отзывы</a></li>
+                                <li><a class="dropdown-item" href="#contacts">Контакты</a></li>
                             </ul>
                         </div>
                     </div>
@@ -55,7 +91,7 @@
         </nav>
     </header>
     <main>
-        <section class="main">
+        <section class="main" >
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-lg-6">
@@ -69,8 +105,8 @@
             </div>
     </main>
     </section>
-    <div class="aboutme">
-        <div class="abtcontainer container">
+    <div class="aboutme" id="abtme" >
+        <div class="abtcontainer container element-animation" class="element-animation">
             <div class="row justify-content-center">
                 <div class="col-12 col-sm-6 col-md-3 text-center">
                     <h2>ОБО МНЕ</h2>
@@ -93,42 +129,68 @@
         </div>
     </div>
 
-    <div class="tretiublock">
+    <div class="tretiublock" id="Yslugi">
         <div class="containertri container">
             <h2>ЧТО Я УМЕЮ</h2>
             <hr>
             <div class="row justify-content-center text-center">
                 <div class="skills_item col-12 col-sm-6 col-md-3">
-                    <img src="img/nout.png" alt="TBU">
-                    <h3>Веб-дизайн</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, hic error! Optio, eaque eveniet libero </p>
+                    <img src="img/nout.png" alt="TBU" class="element-animation">
+                    <h3 class="element-animation">Веб-дизайн</h3>
+                    <p class="element-animation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, hic error! Optio, eaque eveniet libero </p>
                 </div>
                 <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-sm-0">
-                    <img src="img/znak.png" alt="знак">
-                    <h3>Разработка</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, hic error! Optio, eaque eveniet libero </p>
+                    <img src="img/znak.png" alt="знак" class="element-animation">
+                    <h3 class="element-animation">Разработка</h3>
+                    <p class="element-animation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, hic error! Optio, eaque eveniet libero </p>
+                </div>
+                <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-md-0" >
+                    <img src="img/raketa.png" alt="TBU" class="element-animation">
+                    <h3 class="element-animation">СЕО-Оптимизация</h3>
+                    <p class="element-animation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, hic error! Optio, eaque eveniet libero </p>
                 </div>
                 <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
-                    <img src="img/raketa.png" alt="TBU">
-                    <h3>СЕО-Оптимизация</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, hic error! Optio, eaque eveniet libero </p>
-                </div>
-                <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
-                    <img src="img/gramafon.png" alt="TBU">
-                    <h3>Маркетинг</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, hic error! Optio, eaque eveniet libero </p>
+                    <img src="img/gramafon.png" alt="TBU" class="element-animation">
+                    <h3 class="element-animation">Маркетинг</h3>
+                    <p class="element-animation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, hic error! Optio, eaque eveniet libero </p>
                 </div>
             </div>
 
         </div>
     </div>
 
-    <div class="case">
+    <div class="case" id="case">
         <div class="casecontainer container pt-4">
             <h2>КЕЙСЫ</h2>
             <hr>
             <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum natus iusto ratione quisquam odio</p>
-            <img src="img/case.png" alt="наверное тут должна быть картинка">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <img src="img/badcase.jpg" data-src="img/case.png" href="img/case.png" alt="наверное тут должна быть картинка" class="element-animation d-block w-100 kart">
+                
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="img/eva.jpg" data-src="img/eva.jpg" href="img/eva.jpg" class="d-block w-100 kart" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+            
             <div class="row justify-content-between">
                 <div class="col-12 col-md-3 col-lg-2 description_left">
                     <div class="client">
@@ -148,35 +210,37 @@
             </div>
         </div>
     </div>
-
-    <div class="raschet">
-        <div class="raschetcontainer container">
+    <section class="calc" >
+    <div class="raschet" id="price">
+        <div class="raschetcontainer container element-animation">
             <h2>Расчет стоимости</h2>
             <div class="raschetcontainer_inn">
                 <form action="#">
                     <h3>ТИП САЙТА</h3>
-                    <select class="mySelect" name="list" id="list" required="required">
-                                <option value="Выберите пункт...">Выберите пункт...</option>
-                                <option value="opt2">текст</option>
-                                <option value="opt3">текст</option>
+                    <select id="select1" class="mySelect" name="list" id="list" required="required">
+                                <option value="0" days="0" selected disabled>Выберите пункт...</option>
+                                <option value="1000" days="2">Сайт-визитка</option>
+                                <option value="2000" days="3">Интернет-магазин</option>
+                                <option value="4000" days="4">Блог о чем-либо</option>
                             </select>
 
 
                 </form>
                 <form action="#">
                     <h3>ДИЗАЙН</h3>
-                    <select class="mySelect" name="list" id="list" required="required">
-                <option value="Выберите пункт...">Выберите пункт...</option>
-                <option value="opt2">текст</option>
-                <option value="opt3">текст</option>
+                    <select id="select2" class="mySelect" name="list" id="list" required="required">
+                <option value="0"selected disabled days="0">Выберите пункт...</option>
+                <option value="1000" days="3">Шаблон</option>
+                <option value="2000" days="4">Уникальный</option>
                 </select>
                 </form>
                 <form action="#">
                     <h3>АДАПТИВНОСТЬ</h3>
-                    <select class="mySelect" name="list" id="list" required="required">
-                <option value="Выберите пункт...">Выберите пункт...</option>
-                <option value="opt2">текст</option>
-                <option value="opt3">текст</option>
+                    <select id="select3" class="mySelect" name="list" id="list" required="required">
+                <option value="0"selected disabled days="0">Выберите пункт...</option>
+                <option value="1000" days="2">Только ПК</option>
+                <option value="2000" days="3">Пк + Мобильная</option>
+                <option value="4000" days="4">Пк + телевизор</option>
             </select>
                 </form>
 
@@ -196,57 +260,87 @@
             </div>
         </div>
     </div>
-
+</section>
 
     <div class="statistika">
-        <div class="statistikacontainer container">
+        <div class="statistikacontainer container element-animation">
             <h2>НЕМНОГО СТАТИСТИКИ</h2>
             <hr>
             <div class="row justify-content-center text-center">
                 <div class="stata col-12 col-sm-6 col-md-3 ">
                     <img src="img/smile.png" alt="TBU">
-                    <h3>120</h3>
+                    <h3 id="out-1" class="stat">120</h3>
                     <p>СЧАСТЛИВЫХ КЛИЕНТОВ</p>
                 </div>
                 <div class="stata col-12 col-sm-6 col-md-3 mt-5 mt-sm-0">
                     <img src="img/skobki.png" alt="TBU">
-                    <h3>4,600</h3>
+                    <h3 id="out-2" class="stat2">4,600</h3>
                     <p>ЧАСОВ РАБОТЫ</p>
                 </div>
                 <div class="stata col-12 col-sm-6 col-md-3 mt-5 mt-sm-0">
                     <img src="img/galka.png" alt="TBU">
-                    <h3>340</h3>
+                    <h3 id="out-3" class="stat">340</h3>
                     <p>ПРОЕКТОВ ЗАВЕРШЕНО</p>
                 </div>
                 <div class="stata col-12 col-sm-6 col-md-3 mt-5 mt-sm-0">
                     <img src="img/kybok.png" alt="TBU">
-                    <h3>23</h3>
+                    <h3 id="out-4" class="stat">23</h3>
                     <p>НАГРАД ПОЛУЧЕНО</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="otzivi">
-        <div class="otzivicontainer container">
+    <div class="otzivi" id="otziv">
+        <div class="otzivicontainer container element-animation">
             <h2>ОТЗЫВЫ</h2>
             <hr>
-            <div class="row justify-content-center text-center">
-                <div class="otziv col-12 col-md-8">
-                    <img src="img/liwo.png" alt="TBU">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quas non iste eos ullam? Molestias, atque ullam, vero voluptate eveniet, fugiat nostrum iusto reprehenderit obcaecati suscipit adipisci impedit minus maxime.</p>
-                    <p><b>Михаил</b>, Ген директор ПАО"Газпром".</p>
-                    <form action="#">
-                        <input type="radio" name="a">
-                        <input type="radio" name="a">
-                        <input type="radio" name="a">
-                    </form>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-            </div>
+                <div class="carousel-inner ">
+                  <div class="carousel-item active" >
+                    <img src="img/depositphotos_90483764-stock-photo-business-people-group-on-meeting.jpg" class="d-block w-60" alt="...">
+                    <p class="review_text">Самый крутой и самый лучший учитель, Андрей Браун</p>
+                    <p class="review_author"> <span>Михаил</span>, Ген. Директор ПАО "Газпром"</p>
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/ofice.jpg" class="d-block w-60" alt="...">
+                    <p class="review_text">Да, мы полностью подтвердаем и довольны всеми оказаными услугами</p>
+                    <p class="review_author"> <span>Андрей</span>, Ген. Директор ПАО "Билайн"</p>
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ofice2.jpg" class="d-block w-60" alt="...">
+                    <p class="review_text">Нас всё устраивает</p>
+                    <p class="review_author"> <span>Ирина</span>, Директор ПАО "Мегафон"</p>
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
     </div>
-    <div class="kontakti">
-        <div class="kontakticontainer container">
+    
+    <div class="kontakti" id="contacts">
+        <div class="kontakticontainer container element-animation">
             <div class="pt-5">
                 <h2>Мои Контакты</h2>
                 <hr>
@@ -309,8 +403,21 @@
         <p>Copyright@2021 Андрей Браун. Design by Web</p>
     </footer>
 
+    
+    <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/myScript.js"></script>
+    
+    
+    <!-- <script>
+        $(window).on('load', function () {
+          $preloader = $('.loader'),
+            $loader = $preloader.find('.loader');
+          $loader.fadeOut();
+          $preloader.delay(2000).fadeOut('slow');
+        });
+      </script> -->
 </body>
 
 
