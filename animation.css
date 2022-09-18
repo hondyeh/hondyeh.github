@@ -62,10 +62,10 @@
     transition: all 0.7s;
 }
 
-.otzivicontainer img:hover {
+/* .otzivicontainer img:hover {
     transform: scale(1.5);
     transition: all 0.5s;
-}
+} */
 
 .otzivicontainer img {
     transition: all 0.5s;
