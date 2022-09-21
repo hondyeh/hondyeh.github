@@ -67,14 +67,14 @@
     transition: all 0.5s;
 } */
 
-.otzivicontainer img {
+/* .otzivicontainer img {
     transition: all 0.5s;
-}
+} */
 
 .client button:hover {
     transform: scale(1.2);
     transition: all 0.5s;
-}
+} 
 
 .client button {
     transition: all 1s;
